@@ -15,6 +15,12 @@
 		6028B9421FECDB5300F582DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6028B9411FECDB5300F582DD /* main.m */; };
 		6028B94C1FECDB5300F582DD /* practiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6028B94B1FECDB5300F582DD /* practiceTests.m */; };
 		6028B9571FECDB5300F582DD /* practiceUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6028B9561FECDB5300F582DD /* practiceUITests.m */; };
+		6028B9661FECE1C400F582DD /* DCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6028B9651FECE1C400F582DD /* DCViewController.m */; };
+		6028B9721FED05E100F582DD /* DCFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6028B9711FED05E100F582DD /* DCFirstViewController.m */; };
+		6028B9751FED05EC00F582DD /* DCSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6028B9741FED05EC00F582DD /* DCSecondViewController.m */; };
+		60D024DA1FF09B8000C41209 /* CYLHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D024D91FF09B8000C41209 /* CYLHomeViewController.m */; };
+		60D024DD1FF0CCA600C41209 /* DCChooseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D024DC1FF0CCA600C41209 /* DCChooseViewController.m */; };
+		60D024E01FF0DA4700C41209 /* YLDoubleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D024DE1FF0DA4700C41209 /* YLDoubleViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,18 @@
 		6028B9521FECDB5300F582DD /* practiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = practiceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6028B9561FECDB5300F582DD /* practiceUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = practiceUITests.m; sourceTree = "<group>"; };
 		6028B9581FECDB5300F582DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6028B9641FECE1C400F582DD /* DCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCViewController.h; sourceTree = "<group>"; };
+		6028B9651FECE1C400F582DD /* DCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCViewController.m; sourceTree = "<group>"; };
+		6028B9701FED05E100F582DD /* DCFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCFirstViewController.h; sourceTree = "<group>"; };
+		6028B9711FED05E100F582DD /* DCFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCFirstViewController.m; sourceTree = "<group>"; };
+		6028B9731FED05EC00F582DD /* DCSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCSecondViewController.h; sourceTree = "<group>"; };
+		6028B9741FED05EC00F582DD /* DCSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCSecondViewController.m; sourceTree = "<group>"; };
+		60D024D81FF09B8000C41209 /* CYLHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYLHomeViewController.h; sourceTree = "<group>"; };
+		60D024D91FF09B8000C41209 /* CYLHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYLHomeViewController.m; sourceTree = "<group>"; };
+		60D024DB1FF0CCA600C41209 /* DCChooseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCChooseViewController.h; sourceTree = "<group>"; };
+		60D024DC1FF0CCA600C41209 /* DCChooseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCChooseViewController.m; sourceTree = "<group>"; };
+		60D024DE1FF0DA4700C41209 /* YLDoubleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLDoubleViewController.m; sourceTree = "<group>"; };
+		60D024DF1FF0DA4700C41209 /* YLDoubleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLDoubleViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +119,22 @@
 		6028B9311FECDB5300F582DD /* practice */ = {
 			isa = PBXGroup;
 			children = (
+				60D024DF1FF0DA4700C41209 /* YLDoubleViewController.h */,
+				60D024DE1FF0DA4700C41209 /* YLDoubleViewController.m */,
+				60D024D81FF09B8000C41209 /* CYLHomeViewController.h */,
+				60D024D91FF09B8000C41209 /* CYLHomeViewController.m */,
 				6028B9321FECDB5300F582DD /* AppDelegate.h */,
 				6028B9331FECDB5300F582DD /* AppDelegate.m */,
 				6028B9351FECDB5300F582DD /* ViewController.h */,
 				6028B9361FECDB5300F582DD /* ViewController.m */,
+				6028B9641FECE1C400F582DD /* DCViewController.h */,
+				6028B9651FECE1C400F582DD /* DCViewController.m */,
+				60D024DB1FF0CCA600C41209 /* DCChooseViewController.h */,
+				60D024DC1FF0CCA600C41209 /* DCChooseViewController.m */,
+				6028B9701FED05E100F582DD /* DCFirstViewController.h */,
+				6028B9711FED05E100F582DD /* DCFirstViewController.m */,
+				6028B9731FED05EC00F582DD /* DCSecondViewController.h */,
+				6028B9741FED05EC00F582DD /* DCSecondViewController.m */,
 				6028B9381FECDB5300F582DD /* Main.storyboard */,
 				6028B93B1FECDB5300F582DD /* Assets.xcassets */,
 				6028B93D1FECDB5300F582DD /* LaunchScreen.storyboard */,
@@ -265,9 +295,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60D024DA1FF09B8000C41209 /* CYLHomeViewController.m in Sources */,
 				6028B9371FECDB5300F582DD /* ViewController.m in Sources */,
+				60D024DD1FF0CCA600C41209 /* DCChooseViewController.m in Sources */,
+				60D024E01FF0DA4700C41209 /* YLDoubleViewController.m in Sources */,
+				6028B9751FED05EC00F582DD /* DCSecondViewController.m in Sources */,
+				6028B9721FED05E100F582DD /* DCFirstViewController.m in Sources */,
 				6028B9421FECDB5300F582DD /* main.m in Sources */,
 				6028B9341FECDB5300F582DD /* AppDelegate.m in Sources */,
+				6028B9661FECE1C400F582DD /* DCViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
